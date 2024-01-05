@@ -77,7 +77,7 @@
                     @foreach ($Product as $keys => $Pro)
                         <tr>
                             <td>{{ $keys + 1 }}</td>
-                            <td><img src="{{ url('storage/app/' . $Pro->image) }}" style="width:150px; height: 100px;">
+                            <td><img src="{{ $Pro->image }}" style="width:150px; height: 100px;">
                             </td>
                             <td>{{ $Pro->name }}</td>
                             <td>{{ $Pro->price }}</td>
@@ -107,7 +107,7 @@
             <div class="modal-content">
                 <form action="/store" id="EmployeeForm" name="EmployeeForm" class="form-horizontal" method="POST" enctype="multipart/form-data">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="modal_title">Modal title</h5>
+                        <h5 class="modal-title" id="modal_title">Add New Product</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -137,7 +137,7 @@
 
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-info" id="btn-save" data-dismiss="modal">Update</button>
+                        <button type="button" class="btn btn-info" id="btn-save" data-dismiss="modal">Save</button>
                         <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
                     </div>
                 </form>
@@ -156,7 +156,7 @@
         <div class="modal-content">
             <form action="javascript:void(0)" id="EmployeeForm" name="EmployeeForm" class="form-horizontal" method="POST" enctype="multipart/form-data">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="modal_title">Modal title</h5>
+                    <h5 class="modal-title" id="modal_title">Edit Product</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
