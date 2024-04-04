@@ -1,3 +1,5 @@
+Laravel Ecommerce Project
+Welcome to the Laravel Ecommerce project! This repository contains the source code for an ecommerce website built using the Laravel PHP framework. This README file will guide you through the setup process and provide an overview of the project structure and functionality.
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
